@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <!-- Style for a menu item -->
+    <style name="MenuItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/menu_text_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/small_gap</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <!-- Style for view - separating line for menu items -->
+    <style name="MenuItemSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/separator</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <!-- Style for TextView with descriptions -->
+    <style name="TextDescriptions">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/menu_text_height</item>
+        <item name="android:padding">@dimen/small_gap</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <!-- playing buttons style -->
+    <style name="playingButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:padding">@dimen/small_gap</item>
+        <item name="android:background">@color/accent</item>
+    </style>
+
+</resources>

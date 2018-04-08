@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.musicstructurefriendlyplayer.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/folders_menu_item" />
+
+            <include layout="@layout/menu_separator" />
+
+            <include layout="@layout/now_playing_menu_item" />
+
+            <include layout="@layout/menu_separator" />
+
+            <include layout="@layout/music_store_menu_item" />
+
+            <include layout="@layout/menu_separator" />
+
+            <include layout="@layout/meditation_spacebase_menu_item" />
+
+            <TextView
+                style="@style/TextDescriptions"
+                android:text="@string/all_music_descriprion" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/playing_bar" />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Friendly Player</string>
+    <string name="folders_descriprion">
+        This activity contains all folders that include music files.
+        Folders sorted by name. To accomplish that we cna use "Media Store". I found this solution on
+        Stuck OverFlow https://stackoverflow.com/questions/11285288/android-mediastore-get-distinct-folders-of-music-files
+    </string>
+    <string name="all_music_descriprion">
+        This activity should display all music files stored in current
+        divice sorted by name. Other functionality can be attached to this activity, such as: play randomly.
+        play one-by-one ... For example i can learn how to do that from this article
+        http://www.androiddevelopersolutions.com/2015/12/android-media-store-tutorial-list-all.html
+    </string>
+    <string name="music_store_description">
+        I found "Android Pay API" in the internet: https://developers.google.com/android-pay/tutorial.
+        There is full description of how it can be used. So, I think with a right amount of time I can
+        get it. There is a tutorial of how to implement this API and examples of how it can be used.
+        In my case it can be like user go to the music store, choose album or song, pay for this song,
+        and get temporary link to download this song.
+    </string>
+    <string name="meditation_spacebase_description">
+        This activity is my idea. This activity can contain links for meditation music or video files from internet.
+        Can be sorted by amount of likes from users for example. This is something that can make this player different
+        from other music players.
+    </string>
+
+    <string name="now_playing_description">
+        This activity will show currently playing music file. Will show a picture of an album, Album name,
+        song title, artist. This information can be taken using MediaStore. And here is a link to solution that
+        I found in the internet: https://stackoverflow.com/questions/33360055/android-how-to-get-audio-detail-from-audio-file  .
+    </string>
+    <string name="folders">Folders</string>
+    <string name="all_music">All music</string>
+    <string name="now_playing">Now playing</string>
+    <string name="music_store">Music store</string>
+    <string name="meditation_spacebase">Meditation SpaceBase</string>
+</resources>

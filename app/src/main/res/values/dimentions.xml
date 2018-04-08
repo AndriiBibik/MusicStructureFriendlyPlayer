@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_text_height">16sp</dimen>
+    <dimen name="navig_button">24sp</dimen>
+    <dimen name="play_button">32sp</dimen>
+    <dimen name="small_gap">8dp</dimen>
+    <dimen name="separator">1dp</dimen>
+    <dimen name="xsmall_gap">4dp</dimen>
+</resources>
